@@ -18,10 +18,10 @@
 Для запуска всех тестов нужно установить пакет pytest и запустить файл test_recipes.py
 Функционал всех классов описан в одноименных файлах .py
 Для достура к ним просто вызовите один из конструкторов:
-Ingredient(name, quantity, unit)
-ShoppingList()
-Recipe(title, ingredients)
-DietaryRecipe(title, diet_type, ingredients=None) #тут ingredients опциональный по заданию
+- Ingredient(name, quantity, unit)
+- Recipe(title, ingredients)
+- DietaryRecipe(title, diet_type, ingredients=None) #тут ingredients опциональный по заданию
+- ShoppingList()
 
 **Установка**
 Для корректной работы помимо клонирования нужно таже установить зависимости, а именно установить пакет pytest (прописано в requirements.txt)
